@@ -2,6 +2,16 @@
     margin: 0;
     padding:0;
     box-sizing: border-box;
+    background-color:var(--Offwhite) ;
+}
+
+:roots {
+    --Offwhite: hsl(36, 100%, 99%);
+    --Grayishblue: hsl(233, 8%, 79%);
+    --Darkgrayishblue: hsl(236, 13%, 42%);
+    --Verydarkblue: hsl(240, 100%, 5%);
+    --Softorange: hsl(35, 77%, 62%);
+--Softred: hsl(5, 85%, 63%);
 }
 
 .navbar{
@@ -66,8 +76,8 @@
 
     width: 17vw;
     height: 8vh;
-    color:white;
-    background-color: rgb(253, 83, 83);
+    color: hsl(20, 14%, 96%);   
+     background-color: hsl(5, 85%, 63%);
     border-style: none;
     font-size: large;
 
@@ -79,21 +89,22 @@
     background-color: black;
     display: flex;
     flex-direction: column;
-    color: white;
+    color:var(--Offwhite);
     gap: 1rem;
     padding: 1rem;
     height:fit-content;
 }
 .new{
-    color: rgb(230, 174, 6);
+    color:var(--Softorange);
     font-size: 5vh;
     font-weight: 700;
 }
 .h3{
   font-size: 4vh;
+  color: white;
 }
 .h3_para{
-    color: grey;
+    color:gray;
     font-size: 3vh;
 
 }
@@ -114,8 +125,10 @@
         flex-direction: column;
     }
     .web3{
-        height:40vh;
-        width:65vw;
+        background: url(./assets/images/image-web-3-mobile.jpg);
+        height: 100%;
+        width: 100%;
+        
         
     }
     .child_left{
@@ -139,7 +152,7 @@
     .grand-para{
         font-size: 1.5rem;
         font-weight: 200;
-        color: grey;
+        color:grey;
         width:70vw;
 
     }
@@ -150,6 +163,64 @@
     .child_2{
         margin-top: 24rem;
     }
+    .footer{
+        display: flex;
+        flex-direction:column;
+        padding: 0  5px 10px 5px;
+        flex-wrap: nowrap;
 
-    
+
+    }
+    .footer-content{
+        flex-direction: row;
+    }
+    .common-img{
+        height:15vh;
+        width:40vw;
+      }
+      .number{
+        font-size: 30px;
+        font-weight: 400;
+      }
+      .para{
+        font-size: 30px;
+      }
 }
+/* =================================Footer=============================== */
+.footer{
+    margin-top: 5rem;
+    padding:5rem 1rem 1rem 3rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  
+  }
+  .footer-content{
+    display: flex;
+
+    gap: 1rem;
+  }
+  .common-img{
+    height:35vh;
+
+  }
+
+  .number{
+    font-size:90px;
+    font-weight: 500;
+    color:gray;
+  }
+  .para{
+    color:gray;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 10px;
+  }
+  .footer_h3{
+        font-size: 4vh;
+        color:rgb(1, 1, 49);
+      
+  }
+  
+  
