@@ -3,14 +3,7 @@
     padding:0;
     box-sizing: border-box;
 }
-:roots { 
-    
-    
 
-
-
-
-}
 .navbar{
     display:flex;
     justify-content: space-between;
@@ -61,9 +54,7 @@
     font-weight: 900;
     width:40vw;
 }
-.grand_child_2{
-     
-}
+
 .grand-para{
     font-size: 1.7vw;
      font-weight: 100;
