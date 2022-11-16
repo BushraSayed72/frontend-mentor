@@ -19,7 +19,7 @@
 .navbar_right{
     display: flex;
     text-align: center;
-    gap: 2rem;
+    gap: 3vh;
     list-style: none;
     font-weight: 200;
     font-size: 1.6vw;
@@ -75,13 +75,14 @@
 /* =====================child-2======================== */
 
 .child_2{
+
     background-color: black;
     display: flex;
     flex-direction: column;
     color: white;
     gap: 1rem;
     padding: 1rem;
-    height: 90vh;
+    height:fit-content;
 }
 .new{
     color: rgb(230, 174, 6);
@@ -95,4 +96,60 @@
     color: grey;
     font-size: 3vh;
 
+}
+@media (max-width: 768px) {
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+        margin:10px;
+    }
+    .navbar_right{
+        display: flex;
+        flex-direction: column;
+        gap:0vh;
+    }
+    .main{
+        display:flex;
+        flex-direction: column;
+    }
+    .web3{
+        height:40vh;
+        width:65vw;
+        
+    }
+    .child_left{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+
+    }
+    .grand_child_1{
+    font-weight: 900;
+    font-size: 2.5rem;
+    width: 70vw;
+    }
+    .grand_child_2{
+        
+  display: flex;
+  flex-direction: column;
+  padding:0;
+  
+    }
+    .grand-para{
+        font-size: 1.5rem;
+        font-weight: 200;
+        color: grey;
+        width:70vw;
+
+    }
+    .btn{
+        width:50vw;
+        height:8vh;
+    }
+    .child_2{
+        margin-top: 24rem;
+    }
+
+    
 }
