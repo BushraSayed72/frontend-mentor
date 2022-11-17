@@ -2,7 +2,8 @@
     margin: 0;
     padding:0;
     box-sizing: border-box;
-    background-color:var(--Offwhite) ;
+    background-color:var(--Offwhite);
+    font-family: 'Inter', sans-serif;
 }
 
 :roots {
@@ -60,9 +61,9 @@
 
 }
 .grand_child_1{
-    font-size: 4.4vw;
+    font-size: 50px;
     font-weight: 900;
-    width:40vw;
+    width:35vw;
 }
 
 .grand-para{
@@ -193,7 +194,6 @@
 }
 /* =================================Footer=============================== */
 .footer{
-    margin-top: 5rem;
     padding:5rem 0 1rem 3rem;
     display:flex;
     justify-content: center;
