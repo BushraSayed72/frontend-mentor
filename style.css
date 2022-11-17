@@ -119,11 +119,15 @@
         flex-direction: row;
         margin:10px;
     }
+    .navbar_right{
+        display: flex !important;
+    }
     .navbar_right li{
         padding-left: 60px;
     }
 }
 @media (max-width: 768px) {
+    
     
     .icon{
         position: absolute;
@@ -140,7 +144,6 @@
         margin:1px;
         z-index: 100;
         
-    
     }
     .navbar_right{
         display: flex;
