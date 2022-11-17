@@ -7,6 +7,8 @@
     <title>Frontend Mentor | News homepage</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
 
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
@@ -18,7 +20,9 @@
 <body>
    <div class="navbar">
     <img class="navbar_left" src="./assets/images/logo.svg">
-    <ul class="navbar_right">
+    <img  class="icon ham-icon" src="./assets/images/icon-menu.svg">
+    <img class="icon close-icons" src="./assets/images/icon-menu-close.svg">
+    <ul class="navbar_right ul">
         <li>Home</li>
         <li>New</li>
         <li>Popular</li>
@@ -92,7 +96,23 @@
     Coded by <a href="#">Bushra Sayed</a>.
   </div>
 
+<script>
+    $(document).ready(function(){
+    $('.close-icon').hide();
+    $('.ul').hide();
+    $('.ham-icon').on('click',()=>{
+    $('.ham-icon').toggle();
+    $('.close-icon').toggle();
+    
+    })
+    $('.close-icon').on('click',()=>{
+    $('.ham-icon').toggle();
+    $('.close-icon').toggle();
+    
+    })
 
+    })
+</script>
 
 
 </body>
