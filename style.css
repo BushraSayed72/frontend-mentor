@@ -133,7 +133,7 @@
     
     .icon{
         position: absolute;
-        top:4%;
+    
         right:5%;
         width: 25px;
         z-index: 1000;
@@ -141,6 +141,7 @@
     .navbar{
         display: flex;
         align-items:center;
+        text-align: center;
         justify-content: space-between;
         flex-direction: row;
         margin:1px;
@@ -149,6 +150,7 @@
         
     }
     .navbar_right{
+        padding-top: 40px;
         display: flex;
         flex-direction: column;
         align-items: center;
