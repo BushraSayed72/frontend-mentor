@@ -144,6 +144,7 @@
         justify-content: space-between;
         flex-direction: row;
         margin:1px;
+        position:relative;
         
         
     }
@@ -153,6 +154,7 @@
         align-items: center;
         justify-content: left;
         gap:0vh;
+        position: absolute;
         top:0;
         right:0;
         width: 70vw;
